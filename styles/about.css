@@ -1,0 +1,29 @@
+.about { 
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about-title { 
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.about-title span { 
+    font-family: var(--font-mono);
+    color: var(--cyan);
+}
+
+.about-title:after {   
+        content: "";
+        display: inline-block;
+        width: 18%;
+        margin: 0 -55% 0 .5em;
+        vertical-align: middle;
+        border-bottom: 1px solid var(--dark-slate);
+}
+
+.about-text { 
+    font-size: 1.1em;
+    color: var(--light-slate);
+    line-height: 1.2;
+}
