@@ -1,0 +1,139 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    --blue: #74b9ff; 
+    --gray: #8395a7;
+    --dark-gray: #2d3436;
+    --dark: #1e272e;
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2,12,27,0.7);
+    --dark-slate: #495670;
+    --cyan: #00d2d3;
+    --font-mono: "Ubuntu Mono";
+
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+a { 
+    text-decoration: none;
+}
+
+ul { 
+    list-style: none;
+}
+
+body{ 
+    background: var(--dark-navy);
+}
+
+.logo { 
+    color: var(--gray);
+    font-family: "Bebas Neue";
+    font-size: 24px;
+}
+
+.header { 
+    height: 100vh; 
+    background-color: var(--dark-navy);
+    margin: 0 auto; 
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+}
+
+/* navbar */
+
+.nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+
+.nav-list {
+    display: flex; 
+    font-family: var(--font-mono), Arial, serif;
+}
+
+.nav-list__item { 
+    margin-right: 40px;
+    
+}
+
+.nav-list__item:last-child { 
+    margin: 0; 
+}
+
+.nav-list__item a { 
+    color: #8395a7;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.nav-list__item a span { 
+    color: var(--cyan);
+}
+
+.nav-list__item a:hover { 
+    color: var(--cyan);
+}
+/* header-intro */
+.header-intro { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    justify-content: center;
+
+}
+.header-intro__text { 
+    font-size: 16px;
+    line-height: 17.6px;
+    font-weight: light;
+    color: var(--cyan);
+    font-family: var(--font-mono);
+}
+
+
+.header-intro__main { 
+    color: #fff;
+    font-size: 65px;
+    margin-top: 40px;
+    /* text-shadow: 2px 2px var(--dark); */
+}
+
+.header-intro__second { 
+    color: var(--gray);
+    font-size: 65px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.header-intro__descr { 
+    color: var(--gray);
+    max-width: 35%;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.header-intro__btn { 
+    color: var(--cyan);
+    font-family: var(--font-mono), monospace;
+    font-size: 15px;
+    background: transparent;
+    border: var(--cyan) 2px solid;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    transition: .3s;
+    
+}
+
+.header-intro__btn:hover { 
+    background-color: #fff;
+    color: var(--dark-navy)
+}   
