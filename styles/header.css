@@ -2,7 +2,7 @@
     height: 100vh; 
     background-color: var(--dark-navy);
     margin: 0 auto; 
-    display: none;
+    /* display: none; */
 }
 
 /* navbar */
@@ -65,20 +65,21 @@
     color: #fff;
     font-size: clamp(30px, 5em, 65px);
     margin-top: 40px;
+    font-family: "Roboto", sans-serif;
     /* text-shadow: 2px 2px var(--dark); */
 }
 
 .header-intro__second { 
     color: var(--gray);
     font-size: clamp(30px, 5em, 65px);
-
+    font-family: "Roboto", sans-serif;
     margin: 0;
     margin-bottom: 20px;
 }
 
 .header-intro__descr { 
     color: var(--gray);
-    max-width: 35%;
+    max-width: 42%;
     margin-bottom: 40px;
     line-height: 1.4;
 }

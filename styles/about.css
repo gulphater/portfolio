@@ -1,11 +1,15 @@
-.about { 
-    width: 60%;
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 60%; 
+    /* width: 60%; */
     margin: 0 auto;
+    padding:100px
 }
 
 .about-title { 
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .about-title span { 
@@ -16,14 +20,44 @@
 .about-title:after {   
         content: "";
         display: inline-block;
-        width: 18%;
+        width: 40%;
         margin: 0 -55% 0 .5em;
         vertical-align: middle;
-        border-bottom: 1px solid var(--dark-slate);
+        border-bottom: 1px solid #4956707a;
 }
 
 .about-text { 
     font-size: 1.1em;
     color: var(--light-slate);
     line-height: 1.2;
+    width: 80%;
 }
+
+.about-left {
+    margin-right: 70px;
+}
+
+.about-image { 
+    display: inline-block;
+}
+
+.about-image img { 
+    border-radius: 30px;
+    width: 400px;
+}
+
+.about-list {
+    font-family: var(--font-mono);
+    margin-top:30px;
+}
+
+.about-list__item { 
+    display: inline-block;
+    margin-right: 40px;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.about-list__item li i {
+    color: var(--cyan);
+ }
